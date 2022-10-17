@@ -1,0 +1,121 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7975689900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be on Techfios Login Page",
+            "match": {
+              "location": "BackGroundColourStepDefination.user_should_be_on_Techfios_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "User should be able to change SkyBlue BackGround",
+        "description": "",
+        "id": "background-color-change-validation-in-techfios-page;user-should-be-able-to-change-skyblue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76378400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "BackGroundColourStepDefination.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54088000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the button",
+            "match": {
+              "location": "BackGroundColourStepDefination.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41971200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "BackGroundColourStepDefination.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2061357600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "BackGroundColourStepDefination.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59351000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click in the SkyWhite button",
+            "match": {
+              "location": "BackGroundColourStepDefination.i_click_in_the_SkyWhite_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37786000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "BackGroundColourStepDefination.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Background color change validation in Techfios Page",
+    "description": "",
+    "id": "background-color-change-validation-in-techfios-page",
+    "keyword": "Feature",
+    "uri": "features/BackGroundChange.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BackgroundChangeFeature"
+      }
+    ]
+  }
+]
